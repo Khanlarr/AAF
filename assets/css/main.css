@@ -8,114 +8,114 @@ body {
     background: url("../img/main/main\ cover\ image.png") no-repeat center bottom;
     min-height: 100vh;
     background-size: 100%;
+}
 
-    >.banner {
-        padding-top: 7rem;
-        padding-bottom: 5rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        min-height: 80vh;
+.main-header .banner {
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80vh;
+}
 
-        >.heading {
-            font-style: normal;
+.main-header .banner .heading {
+    font-style: normal;
+}
 
-            >h1 {
-                font-family: 'Georgia';
-                font-weight: 700;
-                font-size: 50px;
-                line-height: 60px;
-                text-transform: capitalize;
-            }
+.main-header .banner .heading h1 {
+    font-family: 'Georgia';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    text-transform: capitalize;
+}
 
-            >p {
-                font-family: 'Poppins';
-                font-weight: 400;
-                font-size: 20px;
-                line-height: 30px;
-                text-align: right;
-            }
-        }
+.main-header .banner .heading p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: right;
+}
 
-        >.banner-cards {
-            width: 95%;
-            display: flex;
-            flex-direction: column;
-            align-items: end;
-            gap: 2rem;
-            font-family: 'Poppins';
-            font-style: normal;
+.main-header .banner .banner-cards {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 2rem;
+    font-family: 'Poppins';
+    font-style: normal;
+}
 
-            >h4 {
-                font-weight: 600;
-                font-size: 16px;
-                line-height: 22px;
-                text-transform: capitalize;
-                align-self: center;
-            }
+.main-header .banner .banner-cards h4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: capitalize;
+    align-self: center;
+}
 
-            >.cards {
-                display: flex;
-                justify-content: end;
-                align-items: center;
-                flex-wrap: wrap;
-                gap: 1rem;
+.main-header .banner .banner-cards .cards {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
 
-                >a {
-                    position: relative;
+.main-header .banner .banner-cards .cards a {
+    position: relative;
+}
 
-                    >div:last-child {
-                        width: 255px;
-                        height: 249.02px;
-                        color: var(--white);
-                        position: relative;
-                        background: linear-gradient(180deg, rgba(12, 21, 78, 0) 0%, #0C154E 100%);
+.main-header .banner .banner-cards .cards a>div:last-child {
+    width: 255px;
+    height: 249.02px;
+    color: var(--white);
+    position: relative;
+    background: linear-gradient(180deg, rgba(12, 21, 78, 0) 0%, #0C154E 100%);
+}
 
-                        >span {
-                            font-weight: 700;
-                            font-size: 14px;
-                            line-height: 20px;
-                            position: absolute;
-                            width: 14.94px;
-                            height: 19.92px;
-                            left: 9.94px;
-                            top: 6.9px;
-                        }
+.main-header .banner .banner-cards .cards a>div:last-child span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    position: absolute;
+    width: 14.94px;
+    height: 19.92px;
+    left: 9.94px;
+    top: 6.9px;
+}
 
-                        >p {
-                            width: 184.28px;
-                            height: 69.73px;
-                            font-weight: 400;
-                            font-size: 16px;
-                            line-height: 22px;
-                            position: absolute;
-                            left: 9.94px;
-                            bottom: 8px;
-                        }
+.main-header .banner .banner-cards .cards a>div:last-child p {
+    width: 184.28px;
+    height: 69.73px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    position: absolute;
+    left: 9.94px;
+    bottom: 8px;
+}
 
-                        >img {
-                            position: absolute;
-                            left: 85.16%;
-                            right: 6.25%;
-                            top: 89.24%;
-                            bottom: 10.76%;
-                            object-fit: cover;
-                        }
-                    }
+.main-header .banner .banner-cards .cards a>div:last-child img {
+    position: absolute;
+    left: 85.16%;
+    right: 6.25%;
+    top: 89.24%;
+    bottom: 10.76%;
+    object-fit: cover;
+}
 
-                    >div:first-child {
-                        position: absolute;
+.main-header .banner .banner-cards .cards a>div:first-child {
+    position: absolute;
+}
 
-                        >img {
-                            width: 255px;
-                            height: 249.02px;
-                        }
-                    }
-                }
-            }
-        }
-    }
+.main-header .banner .banner-cards .cards a>div:first-child img {
+    width: 255px;
+    height: 249.02px;
 }
 
 /* Banner end */
@@ -126,86 +126,86 @@ body {
     padding: 7rem 7rem;
     gap: 2rem;
     min-height: 60vh;
+}
 
-    >.main-about-image {
-        width: 50%;
+.main-about .main-about-image {
+    width: 50%;
+}
 
-        >img {
-            width: 100%;
-            height: 100%;
-        }
-    }
+.main-about .main-about-image img {
+    width: 100%;
+    height: 100%;
+}
 
-    >.main-about-section {
-        padding-top: 2rem;
-        width: 35vw;
-        display: flex;
-        flex-direction: column;
-        gap: 3rem;
-        min-height: 26vw;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
+.main-about .main-about-section {
+    padding-top: 2rem;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    min-height: 26vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+}
 
-        >h2 {
-            font-size: 20px;
-            line-height: 30px;
-        }
+.main-about .main-about-section h2 {
+    font-size: 20px;
+    line-height: 30px;
+}
 
-        >h3 {
-            font-family: 'Georgia';
-            font-size: 25px;
-            line-height: 28px;
-            display: flex;
-            align-items: center;
-        }
+.main-about .main-about-section h3 {
+    font-family: 'Georgia';
+    font-size: 25px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+}
 
-        >p {
-            font-size: 16px;
-            line-height: 25px;
-        }
+.main-about .main-about-section p {
+    font-size: 16px;
+    line-height: 25px;
+}
 
-        >button {
-            text-align: center;
-            align-self: start;
-            background: transparent;
-            border: 3px solid var(--joinUs-btn);
-            border-radius: 30px;
-            padding: .8rem 1.2rem;
-            transition: all .3s ease-in-out;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
+.main-about .main-about-section button {
+    text-align: center;
+    align-self: start;
+    background: transparent;
+    border: 3px solid var(--joinUs-btn);
+    border-radius: 30px;
+    padding: .8rem 1.2rem;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
 
-            >a {
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 24px;
-                color: var(--joinUs-btn);
-                text-decoration: none;
-                padding-right: 1rem;
-                transition: all .3s ease-in-out;
-            }
+.main-about .main-about-section button a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--joinUs-btn);
+    text-decoration: none;
+    padding-right: 1rem;
+    transition: all .3s ease-in-out;
+}
 
-            >i {
-                color: var(--joinUs-btn);
-                font-size: 1.2rem;
-                transition: all .3s ease-in-out;
-            }
-        }
+.main-about .main-about-section button i {
+    color: var(--joinUs-btn);
+    font-size: 1.2rem;
+    transition: all .3s ease-in-out;
+}
 
-        >button:hover {
-            border-color: #455cdd;
-            background: #455cdd;
+.main-about .main-about-section button:hover {
+    border-color: #455cdd;
+    background: #455cdd;
+}
 
-            >a,
-            i {
-                color: var(--white);
-            }
-        }
-    }
+.main-about .main-about-section button:hover a,
+.main-about .main-about-section button:hover i {
+    color: var(--white);
 }
 
 /* Main About end */
@@ -215,144 +215,140 @@ body {
 .main-sports {
     padding: 0 7rem 7rem;
     background: url("../img/main/main-sports.png") no-repeat left bottom;
+}
 
-    >.main-sports-about {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+.main-sports .main-sports-about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-        >.main-sports-left {
-            width: 45vw;
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
-            padding-bottom: 3rem;
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 400;
+.main-sports .main-sports-about .main-sports-left {
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 3rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+}
 
-            >h2 {
-                font-size: 20px;
-                line-height: 30px;
-            }
+.main-sports .main-sports-about .main-sports-left h2 {
+    font-size: 20px;
+    line-height: 30px;
+}
 
-            >h3 {
-                font-family: 'Georgia';
-                font-size: 25px;
-                line-height: 40px;
-            }
+.main-sports .main-sports-about .main-sports-left h3 {
+    font-family: 'Georgia';
+    font-size: 25px;
+    line-height: 40px;
+}
 
-            >p {
-                font-size: 16px;
-                line-height: 25px;
-            }
-        }
+.main-sports .main-sports-about .main-sports-left p {
+    font-size: 16px;
+    line-height: 25px;
+}
 
-        >.main-sports-about-arrows {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 1rem;
-            align-self: end;
-            padding-bottom: 5rem;
+.main-sports .main-sports-about .main-sports-about-arrows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    align-self: end;
+    padding-bottom: 5rem;
+}
 
-            >button {
-                border-radius: 50%;
-                background: transparent;
-                padding: .7rem;
-                cursor: pointer;
-            }
-        }
-    }
+.main-sports .main-sports-about .main-sports-about-arrows button {
+    border-radius: 50%;
+    background: transparent;
+    padding: .7rem;
+    cursor: pointer;
+}
 
-    >.main-sports-cards {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1.5rem;
+.main-sports .main-sports-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
 
-        >div {
-            border: 2px solid var(--black);
-            display: flex;
-            flex-wrap: wrap;
-            background-color: var(--white);
-            cursor: pointer;
-            transition: all .3s linear;
-            position: relative;
-            overflow: hidden;
+.main-sports .main-sports-cards>div {
+    border: 2px solid var(--black);
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--white);
+    cursor: pointer;
+    transition: all .3s linear;
+    position: relative;
+    overflow: hidden;
+}
 
-            >.card-img {
-                position: absolute;
-                transform: translateY(-10%);
-                opacity: 0;
-                overflow: hidden;
-                width: 100%;
-                height: 100%;
-                transition: all .3s linear;
+.main-sports .main-sports-cards>div .card-img {
+    position: absolute;
+    transform: translateY(-10%);
+    opacity: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transition: all .3s linear;
+}
 
-                >img {
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
-                }
-            }
+.main-sports .main-sports-cards>div .card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
-            >.card-desc {
-                padding: 2rem .5rem;
-                display: flex;
-                flex-direction: column;
-                gap: 1.2rem;
-                justify-content: space-between;
-                align-items: flex-start;
-                transition: all .3s linear;
-                z-index: 1000;
-                width: 18vw;
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 400;
+.main-sports .main-sports-cards>div .card-desc {
+    padding: 2rem .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    transition: all .3s linear;
+    z-index: 1000;
+    width: 18vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+}
 
-                >h2 {
-                    font-family: 'Georgia';
-                    font-size: 30px;
-                    line-height: 34px;
-                }
+.main-sports .main-sports-cards>div .card-desc h2 {
+    font-family: 'Georgia';
+    font-size: 30px;
+    line-height: 34px;
+}
 
-                >p {
-                    font-size: 18px;
-                    line-height: 25px;
-                }
+.main-sports .main-sports-cards>div .card-desc p {
+    font-size: 18px;
+    line-height: 25px;
+}
 
-                >button {
-                    border: none;
-                    background: transparent;
-                    padding-top: 3.5rem;
+.main-sports .main-sports-cards>div .card-desc button {
+    border: none;
+    background: transparent;
+    padding-top: 3.5rem;
+}
 
-                    >i {
-                        font-size: 1.3rem;
-                        color: var(--black);
-                    }
-                }
-            }
-        }
+.main-sports .main-sports-cards>div .card-desc button i {
+    font-size: 1.3rem;
+    color: var(--black);
+}
 
-        >div:hover {
-            >.card-img {
-                transform: translateY(0);
-                opacity: 1;
-            }
+.main-sports .main-sports-cards>div:hover .card-img {
+    transform: translateY(0);
+    opacity: 1;
+}
 
-            >.card-desc {
-                color: white;
-                background: linear-gradient(180deg, rgba(0, 0, 0, 0.541) 0%,
-                        rgba(0, 0, 0, 0.486) 100%);
+.main-sports .main-sports-cards>div:hover .card-desc {
+    color: white;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.541) 0%,
+            rgba(0, 0, 0, 0.486) 100%);
+}
 
-                >button {
-                    >i {
-                        color: white;
-                    }
-                }
-            }
-        }
-    }
+.main-sports .main-sports-cards>div:hover .card-desc button i {
+    color: white;
 }
 
 /* Main Sports end */
@@ -363,412 +359,374 @@ body {
     transform: translateY(30px);
     background: url("../img/footer/footer\ top.png")no-repeat center bottom, url("../img/main/main-agenda-hill.png") no-repeat right bottom;
     background-size: 100%;
+}
 
-    >.main-agenda-title {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 1rem;
-        padding-bottom: 5rem;
-        width: 100%;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
+.main-agenda .main-agenda-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 5rem;
+    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+}
 
-        >h2 {
-            font-size: 20px;
-            line-height: 30px;
-        }
+.main-agenda .main-agenda-title h2 {
+    font-size: 20px;
+    line-height: 30px;
+}
 
-        >p {
-            font-family: 'Georgia';
-            font-size: 25px;
-            line-height: 28px;
-        }
-    }
+.main-agenda .main-agenda-title p {
+    font-family: 'Georgia';
+    font-size: 25px;
+    line-height: 28px;
+}
 
-    >.main-agenda-cards {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 1rem;
-        padding-bottom: 5rem;
+.main-agenda .main-agenda-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-bottom: 5rem;
+}
 
-        >a {
-            text-decoration: none;
+.main-agenda .main-agenda-cards>a {
+    text-decoration: none;
+}
 
-            >div {
-                width: 24vw;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                gap: 1.2rem;
-                min-height: 400px;
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 500;
+.main-agenda .main-agenda-cards>a>div {
+    width: 24vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.2rem;
+    min-height: 400px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
 
-                >div {
-                    width: 24vw;
-                    height: 300px;
-                    overflow: hidden;
+}
 
-                    >img {
-                        width: 100%;
-                        height: 100%;
-                        object-fit: cover;
-                    }
-                }
+.main-agenda .main-agenda-cards>a>div>div {
+    width: 24vw;
+    height: 300px;
+    overflow: hidden;
+}
 
-                >p {
-                    font-size: 18px;
-                    line-height: 26px;
-                    letter-spacing: 0.01em;
-                    color: black;
-                }
+.main-agenda .main-agenda-cards>a>div>div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
-                >span {
-                    font-size: 14px;
-                    line-height: 26px;
-                    color: var(--gray);
-                }
-            }
-        }
-    }
+.main-agenda .main-agenda-cards>a>div p {
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    color: black;
+}
 
-    >.main-agenda-event {
-        display: flex;
-        justify-content: space-between;
-        gap: 2rem;
-        padding-bottom: 5rem;
+.main-agenda .main-agenda-cards>a>div span {
+    font-size: 14px;
+    line-height: 26px;
+    color: var(--gray);
+}
 
-        >.main-agenda-measure {
-            display: flex;
-            flex-direction: column;
-            gap: 1.5rem;
-            width: 40vw;
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 400;
+.main-agenda .main-agenda-event {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding-bottom: 5rem;
+}
 
-            >h3 {
-                font-size: 20px;
-                line-height: 30px;
-            }
+.main-agenda .main-agenda-event .main-agenda-measure {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 40vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
 
-            >p {
-                font-family: 'Georgia';
-                font-size: 25px;
-                line-height: 40px;
-            }
+}
 
-            >button {
-                background: transparent;
-                border: 2px solid var(--joinUs-btn);
-                border-radius: 30px;
-                width: 220px;
-                margin-top: 2rem;
-                cursor: pointer;
-                padding: .8rem 1.2rem;
-                transition: all .3s ease-in-out;
-                display: flex;
-                align-items: center;
+.main-agenda .main-agenda-event .main-agenda-measure h3 {
+    font-size: 20px;
+    line-height: 30px;
+}
 
-                >a {
-                    font-family: 'Poppins';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 16px;
-                    line-height: 24px;
-                    color: var(--joinUs-btn);
-                    text-decoration: none;
-                    padding-right: 1rem;
-                    display: flex;
-                    align-items: center;
-                    gap: 1rem;
+.main-agenda .main-agenda-event .main-agenda-measure p {
+    font-family: 'Georgia';
+    font-size: 25px;
+    line-height: 40px;
+}
 
-                    >i {
-                        color: var(--joinUs-btn);
-                        font-size: 1.2rem;
-                        transition: all .3s ease-in-out;
-                    }
-                }
-            }
+.main-agenda .main-agenda-event .main-agenda-measure button {
+    background: transparent;
+    border: 2px solid var(--joinUs-btn);
+    border-radius: 30px;
+    width: 220px;
+    margin-top: 2rem;
+    cursor: pointer;
+    padding: .8rem 1.2rem;
+    transition: all .3s ease-in-out;
+    display: flex;
+    align-items: center;
+}
 
-            >button:hover {
-                border-color: #455cdd;
-                background: #455cdd;
+.main-agenda .main-agenda-event .main-agenda-measure button a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--joinUs-btn);
+    text-decoration: none;
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 
-                >a {
-                    color: var(--white);
+}
 
-                    >i {
-                        color: var(--white);
-                    }
-                }
-            }
-        }
+.main-agenda .main-agenda-event .main-agenda-measure button a i {
+    color: var(--joinUs-btn);
+    font-size: 1.2rem;
+    transition: all .3s ease-in-out;
+}
 
-        >.main-agenda-march {
-            padding-top: 3rem;
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
+.main-agenda .main-agenda-event .main-agenda-march {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
 
-            >a {
-                text-decoration: none;
+.main-agenda .main-agenda-event .main-agenda-march>a {
+    text-decoration: none;
+}
 
-                >div {
-                    display: flex;
-                    width: 50vw;
-                    align-items: center;
-                    justify-content: space-between;
-                    border-bottom: 2px solid var(--gray);
-                    padding-bottom: 2rem;
-                    padding-left: 2rem;
-                    min-height: 3rem;
-                    background-color: var(--white);
-                    transition: all .3s linear;
-                    font-family: 'Poppins';
-                    font-style: normal;
+.main-agenda .main-agenda-event .main-agenda-march>a>div {
+    display: flex;
+    width: 50vw;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--gray);
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    min-height: 3rem;
+    background-color: var(--white);
+    transition: all .3s linear;
+    font-family: 'Poppins';
+    font-style: normal;
+}
 
-                    >span {
-                        font-weight: 400;
-                        font-size: 14px;
-                        line-height: 10px;
-                        color: black;
-                        transition: all .3s linear;
-                    }
+.main-agenda .main-agenda-event .main-agenda-march>a>div span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 10px;
+    color: black;
+    transition: all .3s linear;
+}
 
-                    >p {
-                        font-weight: 500;
-                        font-size: 20px;
-                        line-height: 30px;
-                        width: 60%;
-                        color: black;
-                        transition: all .3s linear;
-                    }
-                }
+.main-agenda .main-agenda-event .main-agenda-march>a>div p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    width: 60%;
+    color: black;
+    transition: all .3s linear;
+}
 
-                >div:hover {
-                    background-color: rgb(0, 102, 255);
+.main-agenda .main-agenda-event .main-agenda-march>a:hover>div {
+    background-color: rgb(0, 102, 255);
+}
 
-                    >p,
-                    span {
-                        color: var(--white);
-                    }
-                }
+.main-agenda .main-agenda-event .main-agenda-march>a:hover>div p,
+.main-agenda .main-agenda-event .main-agenda-march>a:hover>div span {
+    color: var(--white);
+}
 
-                >div:first-child {
-                    border-top: 2px solid var(--gray);
-                    padding-top: 2rem
-                }
-            }
-        }
-    }
+.main-agenda .main-agenda-event .main-agenda-march>a:first-child div {
+    border-top: 2px solid var(--gray);
+    padding-top: 2rem
+}
 
-    >.main-agenda-image {
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-wrap: wrap;
-        padding: 3rem 0;
-        gap: 2rem;
-        min-height: 10vh;
-        overflow: hidden;
-        width: 100%;
-        margin-bottom: 20rem;
+.main-agenda .main-agenda-image {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+    gap: 2rem;
+    min-height: 10vh;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20rem;
+}
 
-        >div {
-            padding-bottom: 0;
-        }
-    }
+.main-agenda .main-agenda-image>div {
+    padding-bottom: 0;
 }
 
 /* Main Agenda end */
 
 /* Footer start */
-
 .footer-top {
     display: flex;
     justify-content: space-between;
     gap: 2rem;
     padding-bottom: 5rem;
+}
 
-    >.footer-top-peak {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-        width: 100vw;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
+.footer-top .footer-top-peak {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+}
 
-        >h2 {
-            font-size: 20px;
-            line-height: 30px;
-        }
+.footer-top .footer-top-peak h2 {
+    font-size: 20px;
+    line-height: 30px;
+}
 
-        >h3 {
-            font-family: 'Georgia';
-            font-size: 25px;
-            line-height: 40px;
-        }
+.footer-top .footer-top-peak h3 {
+    font-family: 'Georgia';
+    font-size: 25px;
+    line-height: 40px;
+}
 
-        >p {
-            font-size: 16px;
-            line-height: 25px;
-        }
-    }
+.footer-top .footer-top-peak p {
+    font-size: 16px;
+    line-height: 25px;
+}
 
-    >.footer-top-hill {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        line-height: 21px;
-        display: flex;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        align-items: baseline;
-        justify-content: space-between;
+.footer-top .footer-top-hill {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+}
 
-        >a {
-            text-decoration: none;
-            color: white;
-            border-bottom: 2px solid #232C65;
-            width: 100%;
-            transition: all .3s linear;
+.footer-top .footer-top-hill>a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid #232C65;
+    width: 100%;
+    transition: all .3s linear;
+}
 
-            >h2 {
-                font-size: 22px;
-                width: 100%;
-                padding-bottom: 1.5rem;
+.footer-top .footer-top-hill>a h2 {
+    font-size: 22px;
+    width: 100%;
+    padding-bottom: 1.5rem;
+}
 
-                >span {
-                    font-size: 14px;
-                }
-            }
-        }
+.footer-top .footer-top-hill>a h2 span {
+    font-size: 14px;
+}
 
-        >a:not(:first-child) {
-            color: #232C65;
-        }
+.footer-top .footer-top-hill>a:not(:first-child) {
+    color: #232C65;
+}
 
-        >a:hover {
-            color: white;
-        }
-    }
+.footer-top .footer-top-hill>a:hover {
+    color: white;
+}
 
-    >.footer-top-peakPath {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-        width: 80vw;
-        background: #28316A;
-        opacity: 0.8;
-        padding: 2rem 1rem;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
+.footer-top .footer-top-peakPath {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 80vw;
+    background: #28316A;
+    opacity: 0.8;
+    padding: 2rem 1rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+}
 
-        >div {
-            display: flex;
-            align-items: center;
-            justify-content: end;
-            gap: 1rem;
+.footer-top .footer-top-peakPath>div {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 1rem;
+}
 
-            >div {
-                >h4 {
-                    font-size: 18px;
-                    line-height: 27px;
-                }
-            }
-        }
+.footer-top .footer-top-peakPath>div h4 {
+    font-size: 18px;
+    line-height: 27px;
+}
 
-        >h3 {
-            font-family: 'Georgia';
-            font-weight: 700;
-            font-size: 22px;
-            line-height: 25px;
-        }
+.footer-top .footer-top-peakPath h3 {
+    font-family: 'Georgia';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+}
 
-        >p {
-            font-size: 15px;
-            line-height: 21px;
-        }
-    }
+.footer-top .footer-top-peakPath p {
+    font-size: 15px;
+    line-height: 21px;
 }
 
 /* Footer end */
 @media screen and (max-width:1360px) {
-    .main-sports {
-        >.main-sports-cards {
-            >div {
-                >.card-desc {
-                    width: 22vw;
-                }
-            }
-        }
+    .main-sports .main-sports-cards>div>.card-desc {
+        width: 22vw;
     }
 
-    .main-about {
-        >.main-about-image {
-            width: 550px;
-        }
+    .main-about .main-about-image {
+        width: 550px;
     }
 }
 
 @media screen and (max-width:1200px) {
-    .main-about {
-        >.main-about-section {
-            width: 40vw;
-            padding-top: 0;
-
-            >button {
-                padding: .6rem 1rem;
-            }
-        }
+    .main-about .main-about-section {
+        width: 40vw;
+        padding-top: 0;
     }
 
-    .main-agenda {
-        >.main-agenda-cards {
-            >a {
-                >div {
-                    min-height: 300px;
-                }
-            }
-        }
+    .main-about .main-about-section button {
+        padding: .6rem 1rem;
+    }
 
-        >.main-agenda-event {
-            >.main-agenda-measure {
-                width: 50vw;
+    .main-agenda .main-agenda-cards>a>div {
+        min-height: 300px;
+    }
 
-                >h3 {
-                    font-size: 18px;
-                }
+    .main-agenda .main-agenda-event .main-agenda-measure {
+        width: 50vw;
+    }
 
-                >p {
-                    font-size: 22px;
-                }
+    .main-agenda .main-agenda-event .main-agenda-measure h3 {
+        font-size: 18px;
+    }
 
-                >button {
-                    padding: .6rem 1rem;
-                }
-            }
+    .main-agenda .main-agenda-event .main-agenda-measure p {
+        font-size: 22px;
+    }
 
-            >.main-agenda-march {
-                >a {
-                    >div {
-                        >p {
-                            font-size: 18px;
-                        }
-                    }
-                }
+    .main-agenda .main-agenda-event .main-agenda-measure button {
+        padding: .6rem 1rem;
+    }
 
-            }
-        }
+    .main-agenda .main-agenda-event .main-agenda-march>a>div p {
+        font-size: 18px;
     }
 
     .main-header .banner .heading h1 {
@@ -781,347 +739,259 @@ body {
         flex-direction: column-reverse;
         padding: 3rem;
         gap: 2rem;
+    }
 
-        >.main-about-section {
-            width: 80vw;
-            gap: 2rem;
-        }
+    .main-about .main-about-section {
+        width: 80vw;
+        gap: 2rem;
+    }
 
-        >.main-about-image {
-            width: 60vw;
-            object-fit: cover;
-        }
+    .main-about .main-about-image {
+        width: 60vw;
+        object-fit: cover;
     }
 
     .main-sports {
         padding: 0 4rem 3rem;
+    }
 
-        >.main-sports-cards {
-            >div {
-                >.card-desc {
-                    width: 36vw;
-                }
-            }
-        }
+    .main-sports .main-sports-cards>div>.card-desc {
+        width: 36vw;
     }
 
     .main-agenda {
         padding: 0 4rem 3rem;
-
-        >.main-agenda-cards {
-            justify-content: start;
-            gap: 2rem;
-
-            >a {
-                >div {
-                    width: 38vw;
-
-                    >div {
-                        width: 38vw;
-                    }
-                }
-            }
-        }
-
-        >.main-agenda-event {
-            flex-direction: column;
-
-            >.main-agenda-measure {
-                width: 80vw;
-            }
-
-            >.main-agenda-march {
-                >a {
-                    >div {
-                        width: 80vw;
-                    }
-                }
-            }
-        }
-
-        >.main-agenda-image {
-            padding-top: 2rem;
-            justify-content: center;
-            gap: 1rem;
-        }
     }
 
-    .main-header {
-        >.banner {
-            >.banner-cards {
-                width: 100%;
-                align-items: center;
-                gap: 2rem;
+    .main-agenda .main-agenda-cards {
+        justify-content: start;
+        gap: 2rem;
+    }
 
-                >.cards {
-                    >a {
-                        >div:last-child {
-                            width: 29vw;
-                        }
+    .main-agenda .main-agenda-cards>a>div {
+        width: 38vw;
+    }
 
-                        >div:first-child img {
-                            width: 29vw;
-                        }
-                    }
-                }
-            }
-        }
+    .main-agenda .main-agenda-cards>a>div>div {
+        width: 38vw;
+    }
+
+    .main-agenda .main-agenda-event {
+        flex-direction: column;
+    }
+
+    .main-agenda .main-agenda-event .main-agenda-measure {
+        width: 80vw;
+    }
+
+    .main-agenda .main-agenda-event .main-agenda-march>a>div {
+        width: 80vw;
+    }
+
+    .main-agenda .main-agenda-image {
+        padding-top: 2rem;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .main-header .banner .banner-cards {
+        width: 100%;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .main-header .banner .banner-cards .cards>a>div:last-child {
+        width: 29vw;
+    }
+
+    .main-header .banner .banner-cards .cards>a>div:first-child img {
+        width: 29vw;
     }
 
     .footer-top {
         flex-direction: column;
         gap: 2rem;
+    }
 
-        >.footer-top-peak {
-            >h3 {
-                width: 80%;
-            }
+    .footer-top .footer-top-peak h3 {
+        width: 80%;
+    }
 
-            >p {
-                width: 80%;
-            }
-        }
+    .footer-top .footer-top-peak p {
+        width: 80%;
+    }
 
-        >.footer-top-hill {
-            >a:not(:first-child) {
-                padding-top: 1rem;
-            }
-        }
+    .footer-top .footer-top-hill>a:not(:first-child) {
+        padding-top: 1rem;
     }
 }
 
 @media screen and (max-width:768px) {
-    .main-header {
-        >.banner {
-            padding-top: 3rem;
+    .main-header .banner {
+        padding-top: 3rem;
+    }
 
-            >.heading {
-                >h1 {
-                    font-size: 30px;
-                }
+    .main-header .banner .heading h1 {
+        font-size: 30px;
+    }
 
-                >p {
-                    font-size: 16px;
-                }
-            }
+    .main-header .banner .heading p {
+        font-size: 16px;
+    }
 
-            >.banner-cards {
-                padding: 4rem 0 4rem 4rem;
+    .main-header .banner .banner-cards {
+        padding: 4rem 0 4rem 4rem;
+    }
 
-                >h4 {
-                    align-self: start;
-                }
+    .main-header .banner .banner-cards h4 {
+        align-self: start;
+    }
 
-                >.cards {
-                    justify-content: start;
+    .main-header .banner .banner-cards .cards {
+        justify-content: start;
+    }
 
-                    >a {
-                        >div:last-child {
-                            width: 44vw;
-                        }
+    .main-header .banner .banner-cards .cards>a>div:last-child {
+        width: 44vw;
+    }
 
-                        >div:first-child img {
-                            width: 44vw;
-                        }
-                    }
-                }
-            }
-        }
+    .main-header .banner .banner-cards .cards>a>div:first-child img {
+        width: 44vw;
     }
 }
 
 @media screen and (max-width:686px) {
-    .main-sports {
-        >.main-sports-cards {
-            >div {
-                width: 80vw;
-
-                >.card-desc {
-                    width: 100%;
-                }
-            }
-        }
-
-        >.main-sports-about {
-            flex-direction: column;
-
-            >.main-sports-left {
-                width: 100%;
-            }
-        }
+    .main-sports .main-sports-cards>div {
+        width: 80vw;
     }
 
-    .main-agenda {
-        >.main-agenda-cards {
-            >a {
-                >div {
-                    width: 80vw;
-
-                    >div {
-                        width: 80vw;
-                    }
-                }
-            }
-        }
+    .main-sports .main-sports-cards>div>.card-desc {
+        width: 100%;
     }
 
-    .footer-top {
-        >.footer-top-hill {
-            >a {
-                >h2 {
-                    font-size: 18px;
-                }
-            }
-        }
-
-        >.footer-top-peak {
-            >h2 {
-                font-size: 18px;
-            }
-
-            >h3 {
-                font-size: 22px;
-            }
-        }
-
-        >.footer-top-peakPath {
-            width: 90%;
-
-            >h3 {
-                font-size: 20px;
-            }
-        }
+    .main-sports .main-sports-about {
+        flex-direction: column;
     }
 
+    .main-sports .main-sports-about .main-sports-left {
+        width: 100%;
+    }
+
+    .main-agenda .main-agenda-cards>a>div {
+        width: 80vw;
+    }
+
+    .main-agenda .main-agenda-cards>a>div>div {
+        width: 80vw;
+    }
+
+    .footer-top .footer-top-hill>a h2 {
+        font-size: 18px;
+    }
+
+    .footer-top .footer-top-peak h2 {
+        font-size: 18px;
+    }
+
+    .footer-top .footer-top-peak h3 {
+        font-size: 22px;
+    }
+
+    .footer-top .footer-top-peakPath {
+        width: 90%;
+    }
+
+    .footer-top .footer-top-peakPath h3 {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width:586px) {
     .main-about {
         padding: 2rem 1rem;
-
-        >.main-about-section {
-            width: 100%;
-        }
-
-        >.main-about-image {
-            width: 90vw;
-        }
     }
 
-    .main-header {
-        >.banner {
-            >.banner-cards {
-                padding: 4rem 2rem 1rem;
-
-                >h4 {
-                    align-self: center;
-                }
-
-                >.cards {
-                    justify-content: center;
-
-                    >a {
-                        >div:last-child {
-                            width: 90vw;
-                            height: 300px;
-                        }
-
-                        >div:first-child {
-                            >img {
-                                width: 90vw;
-                                height: 300px;
-                            }
-                        }
-                    }
-                }
-            }
-
-            >.heading {
-                >h1 {
-                    text-align: center;
-                    font-size: 24px;
-                }
-
-                >p {
-                    padding-right: 1rem;
-                    font-size: 14px;
-                }
-            }
-        }
+    .main-about .main-about-section {
+        width: 100%;
     }
 
-    .main-sports {
+    .main-about .main-about-image {
+        width: 90vw;
+    }
+
+    .main-header .banner .banner-cards {
+        padding: 4rem 2rem 1rem;
+    }
+
+    .main-header .banner .banner-cards h4 {
+        align-self: center;
+    }
+
+    .main-header .banner .banner-cards .cards {
+        justify-content: center;
+    }
+
+    .main-header .banner .banner-cards .cards>a>div:last-child {
+        width: 90vw;
+        height: 300px;
+    }
+
+    .main-header .banner .banner-cards .cards>a>div:first-child img {
+        width: 90vw;
+        height: 300px;
+    }
+
+    .main-header .banner .heading h1 {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .main-header .banner .heading p {
+        padding-right: 1rem;
+        font-size: 14px;
+    }
+    .main-sports{
+          padding: 0 1rem 2rem;
+    }
+    .main-sports .main-sports-cards>div {
+        width: 90vw;
+    }
+    .main-sports .main-sports-cards>div .card-desc h2 {
+        font-size: 22px;
+    }
+    .main-sports .main-sports-cards>div .card-desc p {
+        font-size: 16px;
+    }
+    .main-sports .main-sports-about .main-sports-left h3 {
+        font-size: 22px;
+    }
+    .main-agenda{
         padding: 0 1rem 2rem;
-
-        >.main-sports-cards {
-            >div {
-                width: 90vw;
-
-                >.card-desc {
-                    >h2 {
-                        font-size: 22px;
-                    }
-
-                    >p {
-                        font-size: 16px;
-                    }
-                }
-            }
-        }
-
-        >.main-sports-about {
-            >.main-sports-left {
-                >h3 {
-                    font-size: 22px;
-                }
-            }
-        }
     }
-
-    .main-agenda {
-        padding: 0 1rem 2rem;
-
-        >.main-agenda-cards {
-            justify-content: center;
-
-            >a {
-                >div {
-                    width: 90vw;
-
-                    >div {
-                        width: 90vw;
-                    }
-                }
-            }
-        }
-
-        >.main-agenda-event {
-            >.main-agenda-measure {
-                width: 80vw;
-            }
-
-            >.main-agenda-march {
-                >a {
-                    >div {
-                        width: 80vw;
-                        flex-direction: column;
-                        align-items: start;
-                        gap: 1rem;
-
-                        >p {
-                            width: 60%;
-                            font-size: 16px;
-                            width: 90%;
-                        }
-                    }
-                }
-            }
-        }
-
-        >.main-agenda-title {
-            >p {
-                font-size: 22px;
-            }
-        }
+    .main-agenda .main-agenda-cards {
+        justify-content: center;
+    }
+    .main-agenda .main-agenda-cards>a>div {
+        width: 90vw;
+    }
+    .main-agenda .main-agenda-cards>a>div>div {
+        width: 90vw;
+    }
+    .main-agenda .main-agenda-event .main-agenda-measure {
+        width: 80vw;
+    }
+    .main-agenda .main-agenda-event .main-agenda-march>a>div{
+        width: 80vw;
+        flex-direction: column;
+        align-items: start;
+        gap: 1rem;
+    }
+    .main-agenda .main-agenda-event .main-agenda-march>a>div p {
+        width: 60%;
+        font-size: 16px;
+        width: 90%;
+    }
+    .main-agenda .main-agenda-title p {
+        font-size: 22px;
     }
 }
