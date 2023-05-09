@@ -1,0 +1,357 @@
+/* Banner start */
+.main-header {
+    background: var(--footer) url("../img/event-detail/event-banner.png") no-repeat center bottom;
+    background-size: 100%;
+    min-height: 50vh;
+}
+
+.main-header header nav ul li a {
+    color: var(--white);
+}
+
+.main-header header .header-right .lang {
+    color: var(--white);
+    border: 2.5px solid var(--white);
+}
+
+.main-header header .header-right .lang:hover {
+    background-color: var(--white);
+    color: var(--footer);
+}
+
+.main-header header .header-right .header_bars {
+    color: var(--white);
+}
+
+.main-header .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    background-color: rgba(12, 21, 78, 0.5);
+}
+
+.main-header .banner>div {
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 60vw;
+}
+
+.main-header .banner h3 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    width: 80%;
+}
+
+.main-header .banner p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 38px;
+    width: 80%;
+}
+
+/* Banner end */
+
+/* Event start */
+.events {
+    min-height: 100vh;
+}
+
+.evnts {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 3rem 0 1rem;
+}
+
+.events-proses {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 82%;
+}
+
+.events-proses h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.events-proses form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.events-proses select,
+.events-proses button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    background: transparent;
+    height: 3rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.5rem;
+    transition: all .2s linear;
+}
+.events-proses button:hover{
+ background:#386BC2;
+ border-color:#386BC2;
+ color: #fff;
+}
+
+.events-proses select {
+    width: 12rem;
+}
+
+.event-topic-cards {
+    padding: 1rem 7rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
+}
+.event-topic-cards>a{
+    text-decoration: none;
+}
+.event-topic-cards>a>div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 2px solid var(--gray);
+    padding: 2rem 2rem;
+    transition: all .2s linear;
+}
+
+.event-topic-cards>a>div>div {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.event-topic-cards>a:first-child>div {
+    border-top: 2px solid var(--gray);
+}
+.event-topic-cards>a:hover>div{
+    background-color: rgb(0, 102, 255);
+}
+.event-topic-cards>a:hover>div span,.event-topic-cards>a:hover>div p{
+    color: #fff;
+}
+.event-topic-cards span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 10px;
+}
+
+.event-topic-cards p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.event-topic-cards button {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.events .btn {
+    display: flex;
+    justify-content: center;
+}
+
+.events .btn button {
+    border-radius: 60px;
+    background: transparent;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    transition: all .2s linear;
+}
+.events .btn button:hover{
+    background:#386BC2;
+    border-color:#386BC2;
+    color: #fff;
+    transform: translateY(-3px);
+   }
+/* Event end */
+
+@media screen and (max-width:1220px) {
+    .main-header .banner>div {
+        width: 80%;
+        padding: 2rem 7rem;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .main-header .banner h3 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .main-header .banner p {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .events-proses h3 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .events-proses select {
+        width: 10rem;
+    }
+
+    .events-proses select,
+    .events-proses button {
+        font-size: 14px;
+        line-height: 22px;
+        padding: 0 1.2rem;
+    }
+
+    .event-topic-cards>a>div>div {
+        flex-direction: column;
+        align-items: start;
+        gap: 1.5rem;
+    }
+
+    .event-topic-cards p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .main-header .banner {
+        min-height: 60vh;
+    }
+
+    .main-header .banner>div {
+        width: 100%;
+        padding: 2rem 3rem;
+    }
+
+    .main-header .banner h3 {
+        font-size: 32px;
+        width: 100%;
+    }
+
+    .main-header .banner p {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .events-proses h3 {
+        font-size: 18px;
+    }
+    .events-proses {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: start;
+    }
+
+    .event-topic-cards {
+        padding: 1rem 3rem;
+    }
+
+    .event-topic-cards>a>div {
+        padding: 2rem 1rem;
+    }
+
+    .event-topic-cards p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .event-topic-cards button{
+          font-size: 12px;
+          padding: .6rem 1rem;
+    }
+    .events .btn button{
+        padding: .8rem 2rem;
+        font-size: 14px;
+        margin-top:2rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .main-header .banner h3 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .main-header .banner p {
+        font-size: 16px;
+    }
+
+    .main-header .banner>div {
+        padding: 2rem 1rem;
+    }
+
+    .events-proses select,
+    .events-proses button {
+        font-size: 12px;
+        line-height: 20px;
+        padding: 0 1rem;
+        height: 2.4rem;
+    }
+
+    .evnts {
+        padding: 2rem 1rem;
+    }
+    .events{
+        padding-bottom: 3rem;
+    }
+    .event-topic-cards {
+        padding: 1rem;
+    }
+
+    .events-proses {
+        width: 100%;
+    }
+
+    .event-topic-cards>a>div {
+        flex-direction: column;
+        align-items: start;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .event-topic-cards span {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}

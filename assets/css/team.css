@@ -1,0 +1,225 @@
+body {
+    background: #F5F5F5;
+}
+
+/* Banner start */
+.main-header {
+    background: url("../img/team/team-banner.png") no-repeat center top;
+    min-height: 50vh;
+    background-size: 100% 100%;
+}
+.main-header .image {
+    clip-path: polygon(36% 0, 68% 36%, 100% 73%, 100% 85%, 72% 84%, 0 85%, 0 57%, 18% 28%);
+    position: absolute;
+    bottom: -100px;
+    min-height: 60vh; 
+    width: 100% !important;
+    background:var(--footer);
+   
+}
+.main-header header nav ul li a {
+    color: var(--white);
+}
+.main-header header .header-right .lang {
+    color: var(--white);
+    border: 2.5px solid var(--white);
+}
+.main-header header .header-right .lang:hover{
+    background-color: var(--white);
+    color: var(--footer);
+}
+.main-header header .header-right .header_bars{
+    color: var(--white);
+}
+.main-header  header{
+    background-color: rgba(12, 21, 78, 0.5);
+}
+.main-header .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 77vh;
+    background-color: rgba(12, 21, 78, 0.5);
+    padding: 0 7rem;
+}
+
+.main-header .banner>div {
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 60vw;
+    z-index: 2;
+}
+
+.main-header .banner h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.main-header .banner h3 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    width: 80%;
+}
+
+.main-header .banner p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 38px;
+    width: 80%;
+}
+
+/* Banner end */
+
+/* Team start */
+.team {
+    padding: 4rem 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+    min-height: 70vh;
+}
+.team>div>div {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+gap: 2rem;
+}
+.team>div>div>a{
+    text-decoration: none;
+}
+.team>div>div>a>div:hover img{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+.team>div>div>a div{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.team>div>div>a{
+    width: 30%;
+}
+.team>div>h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 2rem;
+}
+
+.team>div h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+}
+
+/* Team end */
+
+@media screen and (max-width:1200px) {
+    .main-header .banner>div{
+        width: 80vw;
+    }
+}
+@media screen and (max-width:991px) {
+    .main-header {
+        background: url("../img/team/team-banner.png") no-repeat center top;
+        min-height: 50vh;
+        background-size: 100% cover;
+    }
+    .main-header .banner h2 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .main-header .banner h3 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .main-header .banner p {
+        font-size: 22px;
+    }
+    .main-header .image{
+        display: none;
+    }
+    .team>div>div>a{
+        width: 40%
+    }
+    .team>div>div {
+        gap: 3rem;
+    }
+    .team>div h2 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .team {
+        padding: 2rem 7rem;
+    }
+}
+@media screen and (max-width:768px) {
+    .main-header .banner {
+        padding: 0 3rem;
+    }
+    .team{
+        padding: 2rem 3rem;
+    }
+    .main-header .banner h2 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .main-header .banner h3 {
+        font-size: 32px;
+        line-height: 38px;
+        width: 100%;
+    }
+    .main-header .banner>div{
+        width: 100vw;
+    }
+    .main-header .banner p {
+        width: 100%;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .team>div>h3 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .team>div h2 {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:576px) {
+    .main-header .banner {
+        padding: 0 1rem;
+    }
+    .team{
+        padding: 2rem 1rem;
+    }
+    .main-header .banner h2 {
+        font-size: 14px;
+    }
+    .main-header .banner h3 {
+        font-size: 28px;
+    }
+    .main-header .banner p {
+        font-size: 16px;
+    }
+    .team>div>div>a{
+        width: 100%;
+    }
+}

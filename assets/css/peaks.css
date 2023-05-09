@@ -1,0 +1,258 @@
+/* Banner start */
+.main-header {
+    background: linear-gradient(180deg, rgba(12, 21, 78, 0.4) 0%, rgba(12, 21, 78, 0.4) 100%), url("../img/peaks/peaks-banner.png") no-repeat center bottom;
+    min-height: 100vh;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: relative;
+}
+.main-header .image {
+    clip-path: polygon(36% 0, 68% 36%, 100% 73%, 100% 85%, 72% 84%, 0 85%, 0 57%, 18% 28%);
+    position: absolute;
+    bottom: -16%;
+    min-height: 85vh; 
+    width: 100% !important;
+    background:var(--footer);
+}
+.main-header header nav ul li a {
+    color: var(--white);
+}
+.main-header header .header-right .lang {
+    color: var(--white);
+    border: 2.5px solid var(--white);
+}
+.main-header header .header-right .lang:hover{
+    background-color: var(--white);
+    color: var(--footer);
+}
+.main-header header .header-right .header_bars{
+    color: var(--white);
+}
+.main-header .banner {
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.main-header .banner>div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    z-index: 1;
+    width: 60%;
+    z-index: 2000;
+}
+
+.main-header .banner h2 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    width: 75%;
+}
+
+.main-header .banner p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 38px;
+    width: 90%;
+}
+
+/* Banner end */
+
+/* peaks start */
+.peaks {
+    background: var(--footer);
+    min-height: 100vh;
+    padding-bottom: 5rem;
+}
+
+.peaks-cards {
+    min-height: 100vh;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5rem 7rem 0;
+    gap: 1.5rem;
+}
+.peaks-cards>a {
+    text-decoration: none;
+}
+
+.peaks-cards>a div {
+    width: 26vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 24rem;
+    overflow: hidden;
+    position: relative;
+    transition: all .1s linear;
+    color: black;
+}
+
+.peaks-cards>a div .img {
+    width: 100%;
+    height: 100%;
+}
+
+.peaks-cards>a div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.peaks-cards>a div .desc {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    transition: all .2s linear;
+}
+.peaks-cards>a:hover div .desc {
+    background: #FFFFFF;
+    opacity: 1;
+}
+.peaks-cards>a:hover div .desc p{
+    opacity: 1;
+}
+.peaks-cards>a:hover div .desc span{
+    opacity: 0;
+}
+.peaks-cards>a div .desc p{
+    text-align: center;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+width: 80%;
+opacity: 0;
+}
+.peaks-cards>a div span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* peaks end */
+
+@media screen and (max-width:1240px) {
+    .peaks-cards>a div {
+        width: 37vw;
+    }
+    .main-header .banner h2 {
+        width: 100%;
+    }
+
+    .main-header .banner p {
+        width: 100%;
+    }
+}
+@media screen and (max-width:991px) {
+    .main-header {
+        background-size: cover;
+    }
+    .main-header .banner>div {
+        width: 80%;
+    }
+
+    .main-header .banner h2 {
+        font-size: 40px;
+        line-height: 47px;
+        width: 80%;
+    }
+
+    .main-header .banner p {
+        font-size: 20px;
+        line-height: 30px;
+        width: 80%;
+    }
+
+    .peaks-cards {
+        background: var(--footer);
+        padding: 3rem 3rem 0;
+    }
+    .main-header .image{
+        display: none !important;
+     }
+     .peaks-cards>a div{
+            height: 20rem;
+     }
+     .peaks-cards>a div .desc p{
+        font-size: 18px;
+     }
+}
+@media screen and (max-width:768px) {
+    .peaks{
+        padding-bottom: 2rem;
+    }
+    .main-header {
+        min-height:70vh;
+    }
+
+    .main-header .banner {
+        min-height: 60vh;
+    }
+
+    .peaks-cards>a div {
+        width: 60vw;
+        height: 16rem;
+        align-items: flex-start;
+    }
+
+    .main-header .banner h2 {
+        font-size: 30px;
+        line-height: 37px;
+        width: 100%;
+    }
+
+    .main-header .banner p {
+        font-size: 16px;
+        line-height: 24px;
+        width: 100%;
+    }
+
+    .peaks-cards>a div span {
+        font-size: 25px;
+    }
+    .peaks-cards>a div .desc p{
+        font-size: 16px;
+        width: 90%;
+     }
+}
+@media screen and (max-width:576px) {
+    .peaks-cards {
+        padding: 3rem 1rem;
+    }
+
+    .peaks-cards>a div {
+        width: 80vw;
+    }
+    .peaks-cards>a div .desc p{
+        font-size: 14px;
+     }
+}

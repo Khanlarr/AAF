@@ -1,0 +1,406 @@
+/* Banner start */
+.main-header {
+    background: linear-gradient(180deg, rgba(12, 21, 78, 0.4) 0%, rgba(12, 21, 78, 0.4) 100%) no-repeat -100% top,
+        url("../img/insight/main-insight.png") no-repeat center top;
+    min-height:100vh;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.main-header .image {
+    clip-path: polygon(36% 0, 68% 36%, 100% 73%, 100% 85%, 72% 84%, 0 85%, 0 57%, 18% 28%);
+    position: absolute;
+    bottom: -16%;
+    min-height: 85vh; 
+    width: 100% !important;
+    background:var(--footer);
+}
+.main-header header nav ul li a {
+    color: var(--white);
+}
+
+.main-header header .header-right .lang {
+    color: var(--white);
+    border: 2.5px solid var(--white);
+}
+
+.main-header header .header-right .lang:hover {
+    background-color: var(--white);
+    color: var(--footer);
+}
+
+.main-header header .header-right .header_bars {
+    color: var(--white);
+}
+
+.main-header .banner {
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.main-header .banner>div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    z-index: 1;
+    width: 60%;
+}
+.main-header .banner>div:first-child{
+    z-index: 2000;
+}
+
+.main-header .banner h2 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    width: 60%;
+}
+
+.main-header .banner p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 38px;
+    width: 80%;
+}
+
+/* Banner end */
+
+/* İnsight start */
+.insight {
+    background:var(--footer);
+    min-height: 100vh;
+}
+
+.insight-cards {
+    min-height: 100vh;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5rem 7rem 0;
+    gap: 1.5rem;
+}
+.insight-cards>a{
+    text-decoration: none;
+}
+.insight-cards>a div {
+    width: 26vw;
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    gap: 1rem;
+    height: 32rem;
+    overflow: hidden;
+    transition: all .1s linear;
+}
+
+.insight-cards>a:hover div{
+    background: #0E1B70;
+    color: var(--white);
+}
+
+.insight-cards>a div .img {
+    width: 100%;
+    height: 360px;
+}
+
+.insight-cards>a div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.insight-cards>a div .desc {
+    height: 10rem;
+    padding: 0 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.insight-cards>a div p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    padding-right: 2rem;
+}
+
+.insight-cards>a div span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    color: #AEAEAE;
+}
+
+.insight-hill {
+     width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem; 
+    padding: 5rem 0 0;
+}
+
+.insight-hill .hill{
+    width: 82%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    position: relative;
+}
+.insight-hill .hill .hill-image{
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+}
+.insight-hill .hill .hill-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.insight-hill .hill .hill-desc{
+ position: absolute;
+ top: 30%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ gap: 3rem;
+}
+.insight-hill .hill .hill-desc>div{
+    padding-left: 4.5rem;
+}
+
+.insight-hill p {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 55px;
+    width: 70%;
+    text-align: center;
+}
+
+.insight-hill h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.insight .btn {
+    display: flex;
+    justify-content: center;
+}
+
+.insight .btn button:hover {
+    background-color: #386BC2;
+    border-color: #386BC2;
+}
+
+.insight .btn button {
+    border: 2px solid var(--white);
+    border-radius: 60px;
+    background: transparent;
+    color: var(--white);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 1rem 3rem;
+    transition: all .3s linear;
+    cursor: pointer;
+    margin-bottom: 5rem;
+}
+/* İnsight end */
+@media screen and (max-width:1240px) {
+    .insight-cards>a div {
+        width: 37vw;
+    }
+    .insight-hill .hill{
+        width: 76%;
+    }
+    
+    .insight-hill p {
+        width: 70%;
+        font-size: 30px;
+    }
+
+
+    .insight .btn button {
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .main-header {
+        background-size: cover;
+    }
+    .main-header .banner>div {
+        width: 80%;
+    }
+
+    .main-header .banner h2 {
+        font-size: 40px;
+        line-height: 47px;
+        width: 80%;
+    }
+
+    .main-header .banner p {
+        font-size: 20px;
+        line-height: 30px;
+        width: 80%;
+    }
+
+    .insight-cards {
+        background: var(--footer);
+        padding: 7rem 3rem 0;
+    }
+
+    .insight-hill {
+        min-height: 70vh;
+    }
+
+    .insight .btn button {
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+
+    .insight-hill p {
+        width: 70%;
+        font-size: 26px;
+    }
+
+    .insight-hill h2 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .main-header .image{
+        display: none !important;
+     }
+     .insight-hill .hill .hill-image{
+        height: 50vh !important;
+     }
+     .insight-hill .hill .hill-desc{
+        top: 20% !important;
+     }
+}
+
+@media screen and (max-width:768px) {
+    .main-header {
+        min-height:70vh;
+    }
+
+    .main-header .banner {
+        min-height: 60vh;
+    }
+
+    .insight-cards>a div {
+        width: 60vw;
+        height: 26rem;
+        align-items: flex-start;
+    }
+
+    .insight-cards>a div .img {
+        height: 260px;
+    }
+
+    .main-header .banner h2 {
+        font-size: 30px;
+        line-height: 37px;
+        width: 100%;
+    }
+
+    .main-header .banner p {
+        font-size: 16px;
+        line-height: 24px;
+        width: 100%;
+    }
+
+    .insight-cards>a div p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .insight-cards>a div span {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .insight .btn button {
+        font-size: 14px;
+        line-height: 21px;
+        padding: 1rem 2rem;
+    }
+    .insight-hill p {
+        font-size: 22px;
+        line-height: 30px;
+        text-align: start;
+        padding-left: 2rem;
+    }
+    .insight-hill span{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .insight-hill .hill .hill-desc>div{
+        padding-left: 2rem;
+    }
+    .insight-hill .hill .hill-desc{
+        top: 10% !important;
+     }
+     .insight-hill .hill{
+        width: 90%;
+    }
+    .insight-hill .hill .hill-image{
+        height: 40vh !important;
+     }
+     .insight-hill {
+        min-height: 40vh;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .insight-cards {
+        padding: 3rem 1rem;
+    }
+
+    .insight-cards>a div {
+        width: 80vw;
+    }
+    .insight .btn button {
+        font-size: 14px;
+        line-height: 21px;
+        padding: .6rem 1rem;
+    }
+     .insight-hill {
+        padding-top: 0;
+        min-height: 20vh;
+    }
+    .insight-hill p {
+        font-size: 18px;
+        line-height: 26px;
+        width: 80%;
+    }
+}

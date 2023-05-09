@@ -1,0 +1,372 @@
+/* Banner start */
+.main-header {
+    background: var(--footer) url("../img/multimedia/multimeda-banner.png") no-repeat center bottom;
+    background-size: 100%;
+    min-height: 50vh;
+}
+
+.main-header header nav ul li a {
+    color: var(--white);
+}
+
+.main-header header .header-right .lang {
+    color: var(--white);
+    border: 2.5px solid var(--white);
+}
+
+.main-header header .header-right .lang:hover {
+    background-color: var(--white);
+    color: var(--footer);
+}
+
+.main-header header .header-right .header_bars {
+    color: var(--white);
+}
+
+.main-header .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    background-color: rgba(12, 21, 78, 0.5);
+}
+
+.main-header .banner>div {
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 60vw;
+}
+
+.main-header .banner h3 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    width: 80%;
+}
+
+.main-header .banner p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 38px;
+    width: 80%;
+}
+
+/* Banner end */
+
+/* Media start */
+.multimedia {
+    min-height: 100vh;
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 3rem 0 1rem;
+}
+
+.multimedia-proses {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 82%;
+}
+
+.multimedia-proses h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.multimedia-proses form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.multimedia-proses select,
+.multimedia-proses button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    background: transparent;
+    height: 3rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.5rem;
+    transition: all .2s linear;
+}
+.multimedia-proses button:hover{
+ background:#386BC2;
+ border-color:#386BC2;
+ color: #fff;
+}
+
+.multimedia-proses select {
+    width: 12rem;
+}
+.circle-check{
+display: flex;
+gap: 2rem;
+padding: 2rem 7rem;
+}
+.circle-check button{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    background: var(--footer);
+    border: none;
+    padding: 1rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 40px;
+    opacity: 0.6;
+    transition: all .1s linear;
+    cursor: pointer;
+}
+.circle-check button.active,.circle-check button:hover{
+    opacity: 1;
+}
+.circle-check button.active i,.circle-check button:hover i{
+    opacity: 1;
+}
+.circle-check button i{
+opacity: 0;
+}
+
+/* Media end */
+
+.multi-media {
+    min-height: 100vh;
+    padding-bottom: 5rem;
+}
+
+.multi-media-cards {
+    min-height: 100vh;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5rem 7rem 0;
+    gap: 1.5rem;
+}
+.multi-media-cards>a {
+    text-decoration: none;
+}
+.multi-media-cards>a div {
+    width: 26vw;
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    height: 32rem;
+    overflow: hidden;
+    transition: all .1s linear;
+    color: black;
+}
+.multi-media-cards>a:hover div{
+    background: #0E1B70;
+    color: var(--white);
+}
+
+
+.multi-media-cards>a div .img {
+    width: 100%;
+    height: 450px;
+}
+
+.multi-media-cards>a div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.multi-media-cards>a div .desc {
+    height: 10rem;
+    padding: 0 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.multi-media-cards>a div p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    padding-right: 2rem;
+}
+
+.multi-media-cards>a div span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    color: #AEAEAE;
+}
+
+@media screen and (max-width:1220px) {
+    .main-header .banner>div {
+        width: 80%;
+        padding: 2rem 7rem;
+    }
+    .multi-media-cards>a div {
+        width: 37vw;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .main-header .banner h3 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .main-header .banner p {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .multimedia-proses h3 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .multimedia-proses select {
+        width: 10rem;
+    }
+
+    .multimedia-proses select,
+    .multimedia-proses button {
+        font-size: 14px;
+        line-height: 22px;
+        padding: 0 1.2rem;
+    }
+    .multi-media-cards {
+        padding: 7rem 3rem 0;
+    }
+    .circle-check{
+        padding: 2rem 3rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .main-header .banner {
+        min-height: 60vh;
+    }
+
+    .main-header .banner>div {
+        width: 100%;
+        padding: 2rem 3rem;
+    }
+
+    .main-header .banner h3 {
+        font-size: 32px;
+        width: 100%;
+    }
+
+    .main-header .banner p {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .multimedia-proses h3 {
+        font-size: 18px;
+    }
+    .multimedia-proses {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: start;
+    }
+    .multi-media{
+        padding-bottom: 2rem;
+    }
+    .multi-media-cards>a div {
+        width: 60vw;
+        height: 26rem;
+        align-items: flex-start;
+    }
+    .multi-media-cards>a div p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .multi-media-cards>a div span {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .circle-check{
+        gap: 1rem;
+    }
+    .circle-check button{
+        font-size: 14px;
+        padding: .8rem;
+        gap: .5rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .main-header .banner h3 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .main-header .banner p {
+        font-size: 16px;
+    }
+
+    .main-header .banner>div {
+        padding: 2rem 1rem;
+    }
+
+    .multimedia-proses select,
+    .multimedia-proses button {
+        font-size: 12px;
+        line-height: 20px;
+        padding: 0 1rem;
+        height: 2.4rem;
+    }
+
+    .media {
+        padding: 2rem 1rem;
+    }
+    .multimedia{
+        padding-bottom: 3rem;
+    }
+
+    .multimedia-proses {
+        width: 100%;
+    }
+    .multi-media-cards {
+        padding: 3rem 1rem;
+    }
+
+    .multi-media-cards>a div {
+        height: 22rem;
+        width: 80vw;
+    }
+    .circle-check{
+        padding: 1rem;
+    }
+}

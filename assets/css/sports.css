@@ -1,0 +1,338 @@
+/* Banner start */
+.main-header {
+    background: url("../img/sports/sport-hills-2\ 1.png") no-repeat left 100%;
+     background-size: 100% cover;
+    min-height: 100vh;
+}
+.main-header .banner {
+    color: var(--black);
+    min-height: 120vh;
+    padding: 3rem 0 3rem 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 2rem;
+}
+.main-header .banner>div:first-child{
+     position: absolute;
+     top: 0;
+    right: 0; 
+    z-index: -1;
+    width:50vw;
+    min-height: 100%;
+}
+.main-header .banner>div:first-child img {
+    width: 100%;
+    height: 100%;
+}
+.main-header .banner>div:last-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    width:58vw;
+}
+
+.main-header .banner h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.main-header .banner h2 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    text-transform: capitalize;
+    width: 70%;
+}
+
+.main-header .banner p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    width: 70%;
+}
+
+/* Banner end */
+
+/* sports start */
+.sport {
+    background: #F8F8F8;
+    padding: 3rem 7rem;
+}
+
+.sport>h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    letter-spacing: 0.05em;
+    padding: 3rem 1rem;
+}
+
+.sport-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-bottom: 4rem;
+    min-height: 20vh;
+}
+
+.sport-cards>div {
+    width: 25.5vw;
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    height: 32rem;
+    overflow: hidden;
+    transition: all .1s linear;
+}
+.sport-cards>div:hover{
+    background: var(--footer);
+    color: var(--white);
+}
+
+.sport-cards>div .img {
+    width: 100%;
+    height: 100%;
+}
+
+.sport-cards>div img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.sport-cards>div .desc {
+    height: 10rem;
+    padding: 0 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sport-cards>div p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+}
+
+.sport-cards>div span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    color: #AEAEAE;
+}
+
+/* sports end */
+
+/*Sport sport-event start */
+
+.sport-event {
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 7rem;
+}
+.sport-event-topic-cards {
+    padding: 1rem 0;
+    display:flex;
+    flex-direction: column;
+    min-height: 50vh;
+}
+
+.sport-event h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    letter-spacing: 0.05em;
+}
+
+.sport-event-topic-cards>div {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    border-bottom: 2px solid var(--gray);
+    padding: 2rem;
+    transition: all .2s linear;
+}
+.sport-event-topic-cards>div:hover {
+    background-color: rgb(0, 102, 255);
+}
+.sport-event-topic-cards>div:hover p,.sport-event-topic-cards>div:hover span{
+    color: var(--white);
+}
+.sport-event-topic-cards>div:first-child {
+    border-top: 2px solid var(--gray);
+}
+
+.sport-event-topic-cards span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 10px;
+}
+
+.sport-event-topic-cards p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* Sport sport-event end */
+
+@media screen and (max-width:1220px) {
+    .main-header .banner>div:first-child{
+        display: none;
+   }
+    .main-header .banner>div:last-child{
+        width: 100%;
+    }
+    .main-header .banner h2 {
+        width: 90%;
+    }
+    .main-header .banner p {
+        width: 90%;
+    }
+    .sport-cards>div {
+        width: 36.5vw;
+    }
+}
+@media screen and (max-width:991px) {
+    .main-header .banner{
+        padding: 5rem 3rem 3rem;
+    }
+    .sport{
+        padding: 3rem;
+    }
+    .sport-event{
+        padding: 3rem;
+    }
+    .sport-cards>div {
+        width: 42vw;
+    }
+    .sport>h2{
+        font-size: 24px;
+    }
+    .main-header .banner h4{
+        font-size: 20px;
+    }
+    .main-header .banner h2 {
+        font-size: 40px;
+    }
+    .main-header .banner p {
+        font-size: 18px;
+    }
+    .sport-event h2 {
+        font-size: 24px;
+    }
+}
+@media screen and (max-width:768px) {
+    .main-header .banner>div:last-child{
+        gap: 2rem;
+    }
+    .main-header .banner h4{
+        font-size: 18px;
+    }
+    .main-header .banner h2 {
+        font-size: 32px;
+    }
+    .main-header .banner p {
+        font-size: 16px;
+    }
+    .sport>h2{
+        font-size: 22px;
+        padding: 2rem 0;
+    }
+    .sport-cards>div p{
+        font-size: 16px;
+    }
+    .sport-cards>div span{
+        font-size: 12px;
+    }
+    .sport-cards>div {
+        height: 28rem;
+        width: 70vw;
+    }
+    .sport-cards>div img {
+        height: 320px;
+    }
+    .sport-event h2 {
+        font-size: 22px;
+    }
+    .sport-event-topic-cards p {
+        font-size: 18px;
+    }
+    .sport-event-topic-cards>div{
+        flex-direction: column;
+        gap: 1rem;
+        align-items: start;
+        padding: 1rem;
+    }
+}
+@media screen and (max-width:576px) {
+    .main-header .banner{
+        padding: 3rem 1rem;
+    }
+    .sport{
+        padding: 3rem 1rem;
+    }
+    .sport-event{
+        padding: 3rem 1rem;
+    }
+    .main-header .banner h2 {
+        font-size: 26px;
+    }
+    .main-header .banner p {
+        font-size: 14px;
+    }
+    .main-header .banner h2 {
+        width: 100%;
+    }
+    .main-header .banner p {
+        width: 100%;
+    }
+    .sport-cards>div p{
+        font-size: 14px;
+    }
+    .sport-cards>div {
+        height: 26rem;
+        width: 90vw;
+    }
+    .sport-cards>div img {
+        height: 300px;
+    }
+    .sport>h2{
+        font-size: 18px;
+        padding: 1rem 0;
+    }
+    .sport-event h2 {
+        font-size: 18px;
+    }
+    .sport-event-topic-cards p {
+        font-size: 16px;
+    }
+}

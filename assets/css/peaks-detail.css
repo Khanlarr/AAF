@@ -1,0 +1,321 @@
+/* Banner start */
+.main-header {
+    background: linear-gradient(180deg, rgba(12, 21, 78, 0.4) 0%, rgba(12, 21, 78, 0.4) 100%), url("../img/peaks/peaks-detail-banner.png") no-repeat center bottom;
+    min-height: 100vh;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: relative;
+}
+.main-header .image {
+    clip-path: polygon(36% 0, 68% 36%, 100% 73%, 100% 85%, 72% 84%, 0 85%, 0 57%, 18% 28%);
+    position: absolute;
+    bottom: -20%;
+    min-height: 85vh; 
+    width: 100% !important;
+    background:var(--footer);
+}
+.main-header header nav ul li a {
+    color: var(--white);
+}
+.main-header header .header-right .lang {
+    color: var(--white);
+    border: 2.5px solid var(--white);
+}
+.main-header header .header-right .lang:hover{
+    background-color: var(--white);
+    color: var(--footer);
+}
+.main-header header .header-right .header_bars{
+    color: var(--white);
+}
+.main-header .banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-header .banner>div:first-child{
+    width: 60%;
+}
+.main-header .banner>div:first-child a {
+    text-decoration: none;
+    width: 200px;
+    color: white;
+}
+.main-header .banner>div:first-child a{
+display: flex;
+align-items: center;
+gap: 1rem;
+}
+.main-header .banner>div:first-child a h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+.main-header .banner>div:last-child{
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.main-header .banner>div:last-child div{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    z-index: 1;
+    width: 60%;
+    z-index: 2000;
+}
+
+.main-header .banner h2 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    width: 75%;
+}
+
+.main-header .banner p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 38px;
+    width: 90%;
+}
+/* Banner end */
+
+/* Peaks Detail Everest Start */
+.top-of-everest{
+background: var(--footer);
+color: var(--white);
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 50vh;
+padding: 3rem 1rem;
+}
+.top-of-everest>div{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+.top-of-everest img{
+    width: 350px;
+}
+.top-of-everest h2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 45px;
+text-align: center;
+width: 50%;
+}
+.top-of-everest span{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+}
+.top-of-everest p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+}
+/* Peaks Detail Everest end */
+
+/* Peaks Detail Cards Start */
+.peaks-detail-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 5rem 7rem;
+}
+.peaks-detail-cards>div h3{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+}
+.peaks-detail-cards>div p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 1rem 0;
+}
+
+.peaks-detail-cards>div img{
+        width: 50%;
+        padding-bottom: .5rem;
+        object-fit: cover;
+}
+.peaks-detail-cards>div:nth-child(odd) img{
+    float: left;
+    padding-right: 2rem;
+}
+.peaks-detail-cards>div:nth-child(even) img{
+    float: right;
+    padding-left: 2rem;
+}
+/* Peaks Detail Cards end */
+
+@media screen and (max-width:1240px) {
+    .main-header .banner h2 {
+        width: 100%;
+    }
+
+    .main-header .banner p {
+        width: 100%;
+    }
+    .top-of-everest h2{
+        width: 80%;
+    }
+}
+@media screen and (max-width:991px) {
+    .main-header {
+        background-size: cover;
+    }
+    .main-header .banner>div:last-child div{
+        width: 80%;
+    }
+    .main-header .banner>div:first-child a h4{
+        font-size: 14px;
+    }
+    .main-header .banner>div:first-child{
+        width: 80%;
+        padding-top: 2rem;
+    }
+    .main-header .banner h2 {
+        font-size: 40px;
+        line-height: 47px;
+        width: 80%;
+    }
+
+    .main-header .banner p {
+        font-size: 20px;
+        line-height: 30px;
+        width: 80%;
+    }
+    .main-header .image{
+        display: none !important;
+     }
+     .top-of-everest>div{
+        width: 80%;
+     }
+     .top-of-everest h2{
+        width: 65%;
+        font-size: 26px;
+    }
+    .top-of-everest span{
+        font-size: 14px;
+    }
+    .top-of-everest p{
+        font-size: 16px;
+    }
+    .peaks-detail-cards>div h3{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .peaks-detail-cards>div p{
+        padding: .6rem 0;
+    }
+    .peaks-detail-cards{
+        padding: 3rem;
+    }
+}
+@media screen and (max-width:768px) {
+    .main-header {
+        min-height:70vh;
+    }
+    .top-of-everest>div{
+        width: 90%;
+     }
+    .main-header .banner {
+        min-height: 60vh;
+    }
+    .main-header .banner h2 {
+        font-size: 30px;
+        line-height: 37px;
+        width: 100%;
+    }
+
+    .main-header .banner p {
+        font-size: 16px;
+        line-height: 24px;
+        width: 100%;
+    }
+    .top-of-everest h2{
+        width: 80%;
+        font-size: 22px;
+        line-height: 36px;
+    }
+    .top-of-everest p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .top-of-everest img{
+        width: 320px;
+    }
+    .peaks-detail-cards>div h3{
+        font-size: 20px;
+    }
+    .peaks-detail-cards>div p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .peaks-detail-cards{
+        padding: 3rem 2rem;
+    }
+    .peaks-detail-cards>div{
+        display: flex;
+        flex-direction: column;
+    }
+    .peaks-detail-cards>div img{
+        width: 80%;
+        height: 300px;
+        padding: 0 0 2rem 0;
+        float: left;
+    } 
+    .peaks-detail-cards>div:nth-child(even) img{
+        padding-left: 0;
+    }
+    .main-header .banner>div:first-child{
+        width: 90%;
+    }
+}
+@media screen and (max-width:576px){
+    .top-of-everest h2{
+        font-size: 20px;
+        width: 100%;
+    }
+    .top-of-everest img{
+        width: 280px;
+    }
+    .peaks-detail-cards>div h3{
+        font-size: 18px;
+        }
+    .peaks-detail-cards{
+        padding: 3rem 1rem;
+    }
+      .peaks-detail-cards>div img{
+        width: 100%;
+    } 
+}

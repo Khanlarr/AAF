@@ -1,0 +1,278 @@
+/* Banner start */
+.main-header {
+    background: var(--footer) url("../img/contact/Polygon\ 1.png") no-repeat center bottom;
+    background-size: 100%;
+    min-height: 100vh;
+}
+
+.main-header header nav ul li a {
+    color: var(--white);
+}
+
+.main-header header .header-right .lang {
+    color: var(--white);
+    border: 2.5px solid var(--white);
+}
+
+.main-header header .header-right .lang:hover {
+    background-color: var(--white);
+    color: var(--footer);
+}
+
+.main-header header .header-right .header_bars {
+    color: var(--white);
+}
+
+.main-header {
+    .banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background-color: rgba(12, 21, 78, 0.5);
+
+        >div {
+            color: var(--white);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 2rem;
+            width: 60vw;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+
+            >h2 {
+                font-size: 20px;
+                line-height: 30px;
+            }
+
+            >h3 {
+                font-family: 'Georgia';
+                font-size: 50px;
+                line-height: 57px;
+                width: 80%;
+            }
+
+            >p {
+                font-weight: 300;
+                font-size: 25px;
+                line-height: 38px;
+                width: 80%;
+            }
+        }
+    }
+}
+
+/* Banner end */
+
+/* Contact start */
+.contact {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding: 3rem 0;
+    background: #F8F8F8;
+
+    .contact-apply {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 30%;
+
+        >h2 {
+            font-family: 'Georgia';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 34px;
+        }
+
+        >h3 {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        >p {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+        }
+
+        >div {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+    }
+
+    .contact-form {
+        >form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+
+            >div {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+
+                >label {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 23px;
+                }
+
+                >input {
+                    width: 400px;
+                    height: 40px;
+                    padding-left: 1rem;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 23px;
+                }
+
+                >textarea {
+                    width: 400px;
+                    height: 100px;
+                    padding-left: 1rem;
+                    padding-top: .5rem;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 23px;
+                }
+
+                >button {
+                    background: var(--joinUs-btn);
+                    border-radius: 60px;
+                    border: none;
+                    width: 40%;
+                    padding: .8rem 2rem;
+                    display: flex;
+                    align-items: center;
+
+                    >a {
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        text-transform: capitalize;
+                        text-decoration: none;
+                        color: var(--white);
+                        padding-right: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Contact end */
+
+@media screen and (max-width:991px) {
+    .main-header {
+        .banner {
+            >div {
+                width: 80vw;
+
+                >h3 {
+                    width: 100%;
+                }
+
+                >p {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .main-header {
+        background: var(--footer);
+        min-height: 70vh;
+
+        .banner {
+            min-height: 70vh;
+            padding-top: 3rem;
+
+            >div {
+                >h2 {
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+
+                >h3 {
+                    font-size: 30px;
+                    line-height: 38px;
+                }
+
+                >p {
+                    font-size: 16px;
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+
+    .contact {
+        flex-direction: column;
+        padding: 2rem 1rem;
+
+        .contact-apply {
+            width: 100%;
+
+            >h2 {
+                font-size: 24px;
+                line-height: 28px;
+            }
+
+            >h3 {
+                font-size: 14px;
+                line-height: 20px;
+            }
+
+            >p {
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+
+        .contact-form {
+            >form {
+                >div {
+                    >input {
+                        width: 90%;
+                    }
+
+                    >textarea {
+                        width: 90%;
+                    }
+
+                    >button {
+                        width: 160px;
+                        font-size: 14px;
+                        padding-right: .5rem;
+                    }
+
+                    >label {
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

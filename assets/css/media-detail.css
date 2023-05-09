@@ -1,0 +1,203 @@
+/* Banner start */
+.main-header {
+    background: var(--footer);
+    background-size: 100%;
+    min-height: 50vh;
+}
+.main-header header nav ul li a {
+    color: var(--white);
+}
+.main-header header .header-right .lang {
+    color: var(--white);
+    border: 2.5px solid var(--white);
+}
+.main-header header .header-right .lang:hover{
+    background-color: var(--white);
+    color: var(--footer);
+}
+.main-header header .header-right .header_bars{
+    color: var(--white);
+}
+.main-header .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    align-items: center;
+    min-height:50vh;
+    background-color: rgba(12, 21, 78, 0.5);
+    padding: 2rem 0;
+}
+.main-header .banner .banner-one{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 5rem;
+    min-height: 60vh;
+}
+.main-header .banner .banner-top a{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+}
+
+.main-header .banner .banner-top a p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #049846;
+    cursor: pointer;
+}
+.main-header .banner .banner-center{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: end;
+}
+.main-header .banner .banner-center h2{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.main-header .banner .banner-center .banner-center-icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.main-header .banner .banner-center .banner-center-icons span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--white);
+}
+
+.main-header .banner .banner-center .banner-center-icons button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid var(--white);
+    background: transparent;
+    width: 50px;
+    transition: all .3s ease-in-out;
+    height: 50px;
+}
+.main-header .banner .banner-center .banner-center-icons button:hover{
+    background: #049846;
+    border: 2px solid #049846;
+}
+
+/* Banner end */
+.media-swiper{
+    background: var(--footer);
+    min-height: 50vh;
+    padding: 3rem 0;
+}
+.media-swiper .swiper{
+    width: 70%;
+}
+.media-swiper .swiper .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+.media-swiper .swiper .swiper-slide img{
+    width: 80%;
+    height: 550px;
+    object-fit: cover;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    background: #D42528;
+    right:10px;
+    padding: 10px 20px;
+    color: #fff !important;
+    fill: #fff !important;
+    stroke: #fff !important;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 30px !important;
+}
+.swiper-pagination{
+    display: none !important;
+}
+@media screen and (max-width:1200px){
+    .media-swiper .swiper{
+        width:90%;
+    }
+}
+@media screen and (max-width:991px){
+    .main-header .banner .banner-one{
+        width: 80%;
+    }
+    .main-header .banner .banner-center h2{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .main-header .banner .banner-center .banner-center-icons span{
+        font-size: 18px;
+    }
+    .main-header .banner .banner-one{
+        min-height: 50vh;
+    }
+    .swiper-pagination{
+        display: block !important;
+    }
+    .swiper-button-next{
+        display: none !important;
+    }
+    .swiper-button-prev{
+        display: none !important;
+    }
+}
+@media screen and (max-width:768px){
+    .main-header .banner .banner-one{
+        width: 90%;
+    }
+    .main-header .banner .banner-top a p{
+        font-size: 14px;
+    }
+    .main-header .banner .banner-center h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .main-header .banner .banner-center .banner-center-icons span{
+        font-size: 16px;
+    }
+    .main-header .banner .banner-center .banner-center-icons button{
+        width: 40px;
+        height: 40px;
+    }
+    .media-swiper .swiper{
+        width:100%;
+    }
+    .media-swiper .swiper .swiper-slide img{
+        height: 450px;
+        width: 90%;
+    }
+}
+@media screen and (max-width:576px){
+    .main-header .banner .banner-center h2{
+        font-size: 24px;
+    }
+    .main-header .banner .banner-one{
+        min-height: 50vh;
+    }
+    .media-swiper .swiper .swiper-slide img{
+        height: 400px;
+    }
+}

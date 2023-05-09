@@ -1,0 +1,348 @@
+body {
+    background: var(--footer);
+}
+
+/* Banner start */
+.main-header {
+    background: url("../img/team-detail/team-detail-banner.png") no-repeat center top;
+    min-height: 100vh;
+    position: relative;
+    background-size: 100% 100%;
+}
+
+.main-header .image {
+    clip-path: polygon(29% 0, 66% 22%, 100% 43%, 100% 100%, 68% 100%, 32% 100%, 0 100%, 0% 43%, 20% 14%);
+    position: absolute;
+    bottom: 0;
+    min-height: 100vh;
+    width: 100% !important;
+    background: var(--footer);
+    z-index: 1;
+}
+
+.main-header header nav ul li a {
+    color: var(--white);
+}
+
+.main-header header .header-right .lang {
+    color: var(--white);
+    border: 2.5px solid var(--white);
+}
+
+.main-header header .header-right .lang:hover {
+    background-color: var(--white);
+    color: var(--footer);
+}
+
+.main-header header .header-right .header_bars {
+    color: var(--white);
+}
+
+.main-header header {
+    background-color: rgba(12, 21, 78, 0.5);
+}
+
+.main-header .banner {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    min-height: 77vh;
+    background-color: rgba(12, 21, 78, 0.5);
+    padding:3rem 10rem 5rem;
+    color: #fff;
+}
+
+.main-header .banner>div {
+    z-index: 12;
+}
+
+.banner-one a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    width: 10rem;
+}
+
+.banner-two h2 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+}
+
+.banner-two p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 38px;
+    width: 80%;
+}
+
+.banner-two {
+    display: flex;
+    align-items: end;
+}
+.banner-two>div:first-child{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.banner-two img {
+    width: 300px;
+    object-fit: cover;
+}
+.banner-three {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+.banner-three>div{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.banner-three h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}
+.banner-three .icons{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.banner-three h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.banner-four h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.banner-four p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 33px;
+}
+.banner-four{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.salam{
+    height: 100vh;
+}
+.media-swiper{
+    background: var(--white);
+    min-height: 50vh;
+    padding: 3rem 0;
+}
+.media-swiper h2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 39px;
+text-align: center;
+padding-bottom:2rem ;
+}
+.media-swiper .swiper{
+    width: 60%;
+}
+.media-swiper .swiper .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+.media-swiper .swiper .swiper-slide img{
+    width: 95%;
+    height: 300px;
+    object-fit: cover;
+}
+.swiper-button-disabled{
+    display: none !important;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    background: rgba(6, 6, 6, 0.8);
+    right:10px;
+    padding: 10px 20px;
+    color: #fff !important;
+    fill: #fff !important;
+    stroke: #fff !important;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 30px !important;
+}
+.swiper-pagination{
+    display: none !important;
+}
+@media  screen and (max-width:1240px) {
+    .main-header .banner{
+        padding:3rem 5rem 5rem;
+    }
+    .main-header .image {
+        min-height: 90vh;
+    }
+    .banner-two p{
+        width: 90%;
+    }
+    .media-swiper .swiper{
+        width: 70%;
+    }
+}
+@media  screen and (max-width:991px){
+    .main-header {
+        background: url("../img/team-detail/team-detail-banner.png") no-repeat center top;
+        position: relative;
+        background-size: 100% cover;
+    }
+    .media-swiper .swiper{
+        width: 80%;
+    }
+    .banner-two h2{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .banner-two p {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .banner-three h4 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .banner-three h5 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .banner-four h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .banner-four p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .banner-two img {
+        width: 250px;
+    }
+    .media-swiper h2{
+        font-size: 22px;
+        line-height: 33px;
+    }
+}
+@media  screen and (max-width:768px){
+    .main-header .banner{
+        padding:3rem;
+        gap: 2rem;
+    }
+    .banner-one a{
+        font-size: 14px;
+    }
+    .banner-two h2{
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .banner-two{
+        align-items: start;
+    }
+    .banner-two p {
+        font-size: 18px;
+        width: 100%;
+    }
+    .banner-three h4 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .banner-three h5 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .banner-four h3 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .banner-four p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .banner-three .icons{
+        font-size: 25px;
+    }
+    .banner-two img {
+        width: 200px;
+    }
+    .banner-three{
+        gap: 2rem;
+    }
+    .banner-two img {
+        width: 100px;
+    }
+    .media-swiper h2{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .media-swiper .swiper{
+        width: 95%;
+    }
+    .swiper-pagination{
+        display: block !important;
+    }
+    .swiper-button-next{
+        display: none !important;
+    }
+    .swiper-button-prev{
+        display: none !important;
+    }
+}
+@media  screen and (max-width:576px){
+    .main-header .banner{
+        padding:3rem 1rem;
+    }
+    .banner-two h2{
+        font-size: 24px;
+    }
+    .banner-two p {
+        font-size: 16px;
+    }
+    .banner-three h5 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .banner-four h3 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .banner-four p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .main-header .image {
+        display: none;
+    }
+}
