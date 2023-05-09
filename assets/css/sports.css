@@ -86,8 +86,11 @@
     padding-bottom: 4rem;
     min-height: 20vh;
 }
-
-.sport-cards>div {
+.sport-cards>a{
+    text-decoration: none;
+    color: var(--black);
+}
+.sport-cards>a>div {
     width: 25.5vw;
     background: var(--white);
     display: flex;
@@ -98,23 +101,23 @@
     overflow: hidden;
     transition: all .1s linear;
 }
-.sport-cards>div:hover{
+.sport-cards>a:hover >div{
     background: var(--footer);
     color: var(--white);
 }
 
-.sport-cards>div .img {
+.sport-cards>a>div .img {
     width: 100%;
     height: 100%;
 }
 
-.sport-cards>div img {
+.sport-cards>a>div img {
     width: 100%;
     height: 350px;
     object-fit: cover;
 }
 
-.sport-cards>div .desc {
+.sport-cards>a>div .desc {
     height: 10rem;
     padding: 0 1rem 1rem;
     display: flex;
@@ -122,7 +125,7 @@
     justify-content: space-between;
 }
 
-.sport-cards>div p {
+.sport-cards>a>div p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -131,7 +134,7 @@
     letter-spacing: 0.01em;
 }
 
-.sport-cards>div span {
+.sport-cards>a>div span {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -167,8 +170,11 @@
     line-height: 39px;
     letter-spacing: 0.05em;
 }
-
-.sport-event-topic-cards>div {
+.sport-event-topic-cards>a{
+    text-decoration: none;
+    color: var(--black);
+}
+.sport-event-topic-cards>a>div {
     display: flex;
     gap: 5rem;
     align-items: center;
@@ -176,13 +182,13 @@
     padding: 2rem;
     transition: all .2s linear;
 }
-.sport-event-topic-cards>div:hover {
+.sport-event-topic-cards>a:hover >div{
     background-color: rgb(0, 102, 255);
 }
-.sport-event-topic-cards>div:hover p,.sport-event-topic-cards>div:hover span{
+.sport-event-topic-cards>a:hover >div p,.sport-event-topic-cards>a:hover >div span{
     color: var(--white);
 }
-.sport-event-topic-cards>div:first-child {
+.sport-event-topic-cards>a:first-child >div{
     border-top: 2px solid var(--gray);
 }
 
@@ -217,7 +223,7 @@
     .main-header .banner p {
         width: 90%;
     }
-    .sport-cards>div {
+    .sport-cards>a>div {
         width: 36.5vw;
     }
 }
@@ -231,7 +237,7 @@
     .sport-event{
         padding: 3rem;
     }
-    .sport-cards>div {
+    .sport-cards>a>div {
         width: 42vw;
     }
     .sport>h2{
@@ -267,17 +273,17 @@
         font-size: 22px;
         padding: 2rem 0;
     }
-    .sport-cards>div p{
+    .sport-cards>a>div p{
         font-size: 16px;
     }
-    .sport-cards>div span{
+    .sport-cards>a>div span{
         font-size: 12px;
     }
-    .sport-cards>div {
+    .sport-cards>a>div {
         height: 28rem;
         width: 70vw;
     }
-    .sport-cards>div img {
+    .sport-cards>a>div img {
         height: 320px;
     }
     .sport-event h2 {
@@ -286,7 +292,7 @@
     .sport-event-topic-cards p {
         font-size: 18px;
     }
-    .sport-event-topic-cards>div{
+    .sport-event-topic-cards>a>div{
         flex-direction: column;
         gap: 1rem;
         align-items: start;
@@ -315,14 +321,14 @@
     .main-header .banner p {
         width: 100%;
     }
-    .sport-cards>div p{
+    .sport-cards>a>div p{
         font-size: 14px;
     }
-    .sport-cards>div {
+    .sport-cards>a>div {
         height: 26rem;
         width: 90vw;
     }
-    .sport-cards>div img {
+    .sport-cards>a>div img {
         height: 300px;
     }
     .sport>h2{

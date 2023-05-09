@@ -161,8 +161,10 @@ padding: 3rem 0;
     gap: 1.5rem;
     padding-bottom: 4rem;
 }
-
-.insight-detail-other-topic-cards>div {
+.insight-detail-other-topic-cards>a{
+    text-decoration: none;
+}
+.insight-detail-other-topic-cards>a>div {
     width: 26vw;
     background: var(--white);
     display: flex;
@@ -173,24 +175,25 @@ padding: 3rem 0;
     height: 32rem;
     overflow: hidden;
     transition: all .3s linear;
+    color: black;
 }
-.insight-detail-other-topic-cards>div:hover{
+.insight-detail-other-topic-cards>a:hover >div{
     background: var(--footer);
     color: var(--white);
 }
 
-.insight-detail-other-topic-cards>div .img {
+.insight-detail-other-topic-cards>a>div .img {
     width: 100%;
     height: 100%;
 }
 
-.insight-detail-other-topic-cards>div img {
+.insight-detail-other-topic-cards>a>div img {
     width: 100%;
     height: 350px;
     object-fit: cover;
 }
 
-.insight-detail-other-topic-cards>div .desc {
+.insight-detail-other-topic-cards>a>div .desc {
     height: 10rem;
     padding: 0 1rem 1rem;
     display: flex;
@@ -200,7 +203,7 @@ padding: 3rem 0;
     width: 90%;
 }
 
-.insight-detail-other-topic-cards>div p {
+.insight-detail-other-topic-cards>a>div p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -209,7 +212,7 @@ padding: 3rem 0;
     letter-spacing: 0.01em;
 }
 
-.insight-detail-other-topic-cards>div span {
+.insight-detail-other-topic-cards>a>div span {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -262,10 +265,10 @@ padding: 3rem 0;
     .insight-detail-sections ul li{
         font-size: 18px;
     }
-    .insight-detail-other-topic-cards>div p{
+    .insight-detail-other-topic-cards>a>div p{
         font-size: 16px;
     }
-    .insight-detail-other-topic-cards>div {
+    .insight-detail-other-topic-cards>a>div {
         width: 40vw;
     }
     .insight-detail-other-topic>h2{
@@ -297,11 +300,11 @@ padding: 3rem 0;
     .insight-detail-sections ul li{
         font-size: 16px;
     }
-    .insight-detail-other-topic-cards>div {
+    .insight-detail-other-topic-cards>a>div {
         width: 80vw;
         height: 28rem;
     }
-    .insight-detail-other-topic-cards>div .desc{
+    .insight-detail-other-topic-cards>a>div .desc{
         height: 8rem;
     }
     .insight-detail-other-topic-cards{
@@ -321,11 +324,11 @@ padding: 3rem 0;
     .insight-detail-sections{
         padding: 3rem 1rem;
     }
-    .insight-detail-other-topic-cards>div {
+    .insight-detail-other-topic-cards>a>div {
         width: 90vw;
         height: 25rem;
     }
-    .insight-detail-other-topic-cards>div img {
+    .insight-detail-other-topic-cards>a>div img {
         height: 250px;
     }
     .main-header .banner .banner-right .banner-right-image{

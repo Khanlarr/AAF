@@ -162,8 +162,12 @@ padding: 3rem 0;
     gap: 1.5rem;
     padding-bottom: 4rem;
 }
+.news-detail-other-topic-cards>a{
+    text-decoration: none;
+    color: var(--black);
+}
 
-.news-detail-other-topic-cards>div {
+.news-detail-other-topic-cards>a>div {
     width: 26vw;
     background: var(--white);
     display: flex;
@@ -174,22 +178,22 @@ padding: 3rem 0;
     height: 32rem;
     overflow: hidden;
 }
-.news-detail-other-topic-cards>div:hover{
+.news-detail-other-topic-cards>a:hover >div{
     background: var(--footer);
     color: var(--white);
 }
-.news-detail-other-topic-cards>div .img {
+.news-detail-other-topic-cards>a>div .img {
     width: 100%;
     height: 350px;
 }
 
-.news-detail-other-topic-cards>div img {
+.news-detail-other-topic-cards>a>div img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.news-detail-other-topic-cards>div .desc {
+.news-detail-other-topic-cards>a>div .desc {
     height: 10rem;
     padding: 0 1rem 1rem;
     display: flex;
@@ -198,7 +202,7 @@ padding: 3rem 0;
     gap: 1rem;
 }
 
-.news-detail-other-topic-cards>div p {
+.news-detail-other-topic-cards>a>div p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -207,7 +211,7 @@ padding: 3rem 0;
     letter-spacing: 0.01em;
 }
 
-.news-detail-other-topic-cards>div span {
+.news-detail-other-topic-cards>a>div span {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -258,10 +262,10 @@ padding: 3rem 0;
     .news-detail-sections ul li{
         font-size: 18px;
     }
-    .news-detail-other-topic-cards>div p{
+    .news-detail-other-topic-cards>a>div p{
         font-size: 16px;
     }
-    .news-detail-other-topic-cards>div {
+    .news-detail-other-topic-cards>a>div {
         width: 40vw;
     }
     .news-detail-other-topic>h2{
@@ -293,11 +297,11 @@ padding: 3rem 0;
     .news-detail-sections ul li{
         font-size: 16px;
     }
-    .news-detail-other-topic-cards>div {
+    .news-detail-other-topic-cards>a>div {
         width: 80vw;
         height: 28rem;
     }
-    .news-detail-other-topic-cards>div .desc{
+    .news-detail-other-topic-cards>a>div .desc{
         height: 8rem;
     }
     .news-detail-other-topic-cards{
@@ -317,12 +321,12 @@ padding: 3rem 0;
     .news-detail-sections{
         padding: 3rem 1rem;
     }
-    .news-detail-other-topic-cards>div {
+    .news-detail-other-topic-cards>a>div {
         width: 90vw;
         height: 25rem;
     }
-    .news-detail-other-topic-cards>div img {
-        height: 250px;
+    .news-detail-other-topic-cards>a>div img {
+        height: 280px;
     }
     .main-header .banner .banner-right .banner-right-image{
         height: 250px; 
